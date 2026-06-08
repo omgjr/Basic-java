@@ -13,6 +13,10 @@ public class Car {
         public void inflate(){
             noOfDoors=4;
         }
+        
+        public void start(){
+            System.out.println("Car is starting");
+        }
     }
     
 }

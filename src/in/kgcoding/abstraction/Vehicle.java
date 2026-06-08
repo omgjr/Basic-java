@@ -1,9 +1,11 @@
 package in.kgcoding.abstraction;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Transport{
     private int noOfTires;
 
     public abstract void makeStartSound();
+
+   
 
     
 
